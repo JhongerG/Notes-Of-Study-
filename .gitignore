@@ -1,28 +1,112 @@
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+#include <iostream>
+#include <string>
+using namespace std; 
+int main ()
+{
+    cout<<" Inserte Apellidos y Nombre Del Alumno: "<<endl;
+    cout<<" Apellido: "<<endl;
+    string Mijares;
+    cin>> Mijares;
+    cout<<" Nombre: "<<endl;
+    string Jose;
+    cin>>Jose;
+    cout<<" Ingrese Notas Del Alumno "<<endl;
+    cout<<" Notas. "<<endl;
+    cout<<" Evalucion 10% "<<endl;
+    cout<<" Calificacion: 15 ptos. "<<endl;
+    float k= 15;
+    cout<<" Evaluacion 20% "<<endl;
+    cout<<" Calificacion: 16 ptos. "<<endl;
+    float n= 16;
+    cout<<" Evaluacion 15% "<<endl;
+    cout<<" Calificacion: 14 ptos. "<<endl;
+    float j= 14;
+    cout<<" Evaluacion 15% "<<endl;
+    cout<<" Calificacion: 20 ptos. "<<endl;
+    float h= 20;
+    cout<<" Evaluacion 20% "<<endl;
+    cout<<" Calificaion: 17 ptos. "<<endl;
+    float g= 17;
+    cout<<" Evaluacion 20% "<<endl;
+    cout<<" Calificacion: 18 ptos. ";
+    float f= 18;
+    cout<<" Porcentaje: "<<endl;
+    cout<<" evaluacion 10% "<<endl;
+    k*10/100;
+    cout<<" resultado: "<<k*10/100<<"%"<<endl;
+    cout<<" evaluacion 20% "<<endl;
+    n*20/100;
+    cout<<" resultado: "<<n*20/100<<"%"<<endl;
+    cout<<" evaluacion: 15% "<<endl;
+    j*15/100;
+    cout<<" resultado: "<<j*15/100<<"%"<<endl;
+    cout<<" evaluacion: 15% "<<endl;
+    h*15/100;
+    cout<<" resultado: "<<h*15/100<<"%"<<endl;
+    cout<<" evaluacion: 20%"<<endl;
+    g*20/100;
+    cout<<" resultado: "<<g*20/100<<"%"<<endl;
+    cout<<" evaluacion: 20% "<<endl;
+    f*20/100;
+    cout<<" resultado: 20% "<<f*20/100<<"%"<<endl;
+    cout<<" Promedio: "<<endl;
+    k+n+j+h+g+f/6;
+    cout<<" Nota final: "<<k+n+j+h+g+f/6<<" ptos "<<endl;
+    string x;
+    cin>>x;
+    cout<<" ¿Desea Calcular Otras Notas? (yes/no) "<<endl;
+    while(x== "yes" ){
+           cout<<" Inserte Apellidos y Nombre Del Alumno: "<<endl;
+           cout<<" Apellido: "<<endl;
+           string Mijares;
+           cin>> Mijares;
+           cout<<" Nombre: "<<endl;
+           string Jose;
+           cin>>Jose;
+           cout<<" Ingrese Notas Del Alumno "<<endl;
+           cout<<" Notas. "<<endl;
+           cout<<" Evalucion 10% "<<endl;
+           cout<<" Calificacion: 15 ptos. "<<endl;
+           float k= 15;
+           cout<<" Evaluacion 20% "<<endl;
+           cout<<" Calificacion: 16 ptos. "<<endl;
+           float n= 16;
+           cout<<" Evaluacion 15% "<<endl;
+           cout<<" Calificacion: 14 ptos. "<<endl;
+           float j= 14;
+           cout<<" Evaluacion 15% "<<endl;
+           cout<<" Calificacion: 20 ptos. "<<endl;
+           float h= 20;
+           cout<<" Evaluacion 20% "<<endl;
+           cout<<" Calificaion: 17 ptos. "<<endl;
+           float g= 17;
+           cout<<" Evaluacion 20% "<<endl;
+           cout<<" Calificacion: 18 ptos. ";
+           float f= 18;
+           cout<<" Porcentaje: "<<endl;
+           cout<<" evaluacion 10% "<<endl;
+           k*10/100;
+           cout<<" resultado: "<<k*10/100<<"%"<<endl;
+           cout<<" evaluacion 20% "<<endl;
+           n*20/100;
+           cout<<" resultado: "<<n*20/100<<"%"<<endl;
+           cout<<" evaluacion: 15% "<<endl;
+           j*15/100;
+           cout<<" resultado: "<<j*15/100<<"%"<<endl;
+           cout<<" evaluacion: 15% "<<endl;
+           h*15/100;
+           cout<<" resultado: "<<h*15/100<<"%"<<endl;
+           cout<<" evaluacion: 20%"<<endl;
+           g*20/100;
+           cout<<" resultado: "<<g*20/100<<"%"<<endl;
+           cout<<" evaluacion: 20% "<<endl;
+           f*20/100;
+           cout<<" resultado: 20% "<<f*20/100<<"%"<<endl;
+           cout<<" Promedio: "<<endl;
+           k+n+j+h+g+f/6;
+           cout<<" Nota final: "<<k+n+j+h+g+f/6<<" ptos "<<endl;
+           }
+           if (x!= "yes" ){
+                   cout<<" !Gracias Por Usar La Aplicacion.¡ "<<endl;
+                   }
+}
